@@ -1,0 +1,13 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c && npm start",
+    "start": "http-server -o"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.1",
+    "rollup": "^2.60.0",
+    "typescript": "^4.4.3"
+  }
+}
